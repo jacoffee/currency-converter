@@ -49,6 +49,3 @@ npm-debug.log
 *.egg
 **/*.egg-info/**
 
-
-build.xml
-

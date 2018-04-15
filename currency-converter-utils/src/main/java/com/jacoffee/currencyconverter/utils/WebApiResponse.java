@@ -6,15 +6,15 @@ public class WebApiResponse<T> {
   public static final int ERROR = 1;
 
   private int code;
-  private String erroMsg;
+  private String errorMsg;
   private T data;
 
   public void setCode(int code) {
     this.code = code;
   }
 
-  public void setErroMsg(String erroMsg) {
-    this.erroMsg = erroMsg;
+  public void setErrorMsg(String errorMsg) {
+    this.errorMsg = errorMsg;
   }
 
   public void setData(T data) {
@@ -25,8 +25,8 @@ public class WebApiResponse<T> {
     return code;
   }
 
-  public String getErroMsg() {
-    return erroMsg;
+  public String getErrorMsg() {
+    return errorMsg;
   }
 
   public T getData() {
@@ -43,7 +43,7 @@ public class WebApiResponse<T> {
   public static <T> WebApiResponse<T> failed(String errorMsg) {
     WebApiResponse<T> response = new WebApiResponse<>();
     response.setCode(ERROR);
-    response.setErroMsg(errorMsg);
+    response.setErrorMsg(errorMsg);
     return response;
   }
 
