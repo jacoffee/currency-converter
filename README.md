@@ -27,8 +27,8 @@ after this, you shoud be able to see ConverterService interface is registered un
 
 :five: cd ${PROJECT_HOME}/currency-converter-web & mvn spring-boot:run(or intellij idea run)
 
-go to http://localhost:8082/ and you see the following page (Just forget about the simple UI!!)
+go to http://localhost:8082/ and you will see the following page (Just forget about the simple UI!!)
 
 ![](https://github.com/jacoffee/currency-converter/blob/master/currency-rate.png)
 
-The select currency and click the convert button and you will see the result
+Then select currency and click the convert button and you will see the result
