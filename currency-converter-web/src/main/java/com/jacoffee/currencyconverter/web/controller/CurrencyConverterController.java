@@ -41,7 +41,6 @@ public class CurrencyConverterController {
   */
   @RequestMapping(value = "/", method = RequestMethod.GET)
   public String index(ModelMap map) {
-    map.addAttribute("host", "http://roadtopro.cn");
     return "/index";
   }
 
